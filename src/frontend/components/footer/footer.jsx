@@ -74,7 +74,17 @@ function Footer() {
 
         <div className="legal">
           <p>&copy; {new Date().getFullYear()} Restaurant Delivery. All rights reserved.</p>
-          <p>Design și dezvoltare de <a  href="https://siteul-tau.com" target="_blank" rel="noopener noreferrer">Candy Studio</a></p>
+          <div className="text-[10px] tracking-wider uppercase">
+              <span className="opacity-40 text-stone-500">Design de</span>{" "}
+              <a
+                href="https://candystudio.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-stone-300 font-medium hover:text-white transition-colors"
+              >
+                Candy Studio
+              </a>
+            </div>
         </div>
       </div>
     </footer>
